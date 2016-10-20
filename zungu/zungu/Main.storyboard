@@ -6721,6 +6721,9 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="700"/>
+                    <connections>
+                        <outlet property="lblPais" destination="8pu-ei-uSB" id="Q2I-yo-4Vf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oDE-HI-pht" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
