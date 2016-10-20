@@ -57,6 +57,7 @@ class MascotaAgregadaViewController: UIViewController {
                         }
                         
                         //self.imagenPatrocinio.image = UIImage(data: data)
+                        //NUEVO CAMBIO HECTOR
                         return
                     })
                     

@@ -35,7 +35,7 @@ class CarritoViewController: UIViewController,UITableViewDelegate,UITableViewDat
         cell.tapAction = { (cell) in
             self.masCantidad()
         }
-        return cell!
+        return cell
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {

@@ -36,7 +36,7 @@ class CellCarritoTableViewCell: UITableViewCell {
         
     }
     @IBAction func menosCantidad(sender: UIButton) {
-        tapAction2(self)
+        tapAction2!(self)
     }
 
 }
