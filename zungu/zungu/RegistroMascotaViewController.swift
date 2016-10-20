@@ -115,6 +115,13 @@ class RegistroMascotaController: UIViewController {
     }
     
     @IBAction func limpiarInformacion(sender: UIButton) {
+        nombreMiMascota.text = ""
+        nacimientoMiMascota.text = ""
+        razaMiMascota.text = ""
+        pesoMiMascota.text = ""
+        colorMiMascota.text = ""
+        heatsMiMascota.text = ""
+        seniasParticulares.text = ""
     }
     
     

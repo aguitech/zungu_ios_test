@@ -191,6 +191,7 @@
 		DC0406551DB7269D004B92BB /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC0406481DB7269D004B92BB /* LICENSE.txt */; };
 		DC0406561DB7269D004B92BB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC0406491DB7269D004B92BB /* README.txt */; };
 		DC1C87B11DB9750E004E3325 /* RegistroMascotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C87B01DB9750E004E3325 /* RegistroMascotaViewController.swift */; };
+		DC1C87B31DB98817004E3325 /* iconSexo.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1C87B21DB98817004E3325 /* iconSexo.png */; };
 		DCFD214A1DB8741300E2CAF1 /* fondoFormasPago.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFD21481DB8741300E2CAF1 /* fondoFormasPago.png */; };
 		DCFD214B1DB8741300E2CAF1 /* InstruccionesSPEI.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFD21491DB8741300E2CAF1 /* InstruccionesSPEI.png */; };
 		DCFD214E1DB877CA00E2CAF1 /* PagoSPEIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD214C1DB877CA00E2CAF1 /* PagoSPEIViewController.swift */; };
@@ -384,6 +385,7 @@
 		DC0406481DB7269D004B92BB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		DC0406491DB7269D004B92BB /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		DC1C87B01DB9750E004E3325 /* RegistroMascotaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroMascotaViewController.swift; sourceTree = "<group>"; };
+		DC1C87B21DB98817004E3325 /* iconSexo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSexo.png; sourceTree = "<group>"; };
 		DCFD21481DB8741300E2CAF1 /* fondoFormasPago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoFormasPago.png; sourceTree = "<group>"; };
 		DCFD21491DB8741300E2CAF1 /* InstruccionesSPEI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstruccionesSPEI.png; sourceTree = "<group>"; };
 		DCFD214C1DB877CA00E2CAF1 /* PagoSPEIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagoSPEIViewController.swift; sourceTree = "<group>"; };
@@ -488,6 +490,7 @@
 		38BC30621D9C4C35008DD592 /* imagen */ = {
 			isa = PBXGroup;
 			children = (
+				DC1C87B21DB98817004E3325 /* iconSexo.png */,
 				38304F1E1DB9458600295DF0 /* slider-ico.png */,
 				38304F161DB928B400295DF0 /* image-paseador.png */,
 				DCFD21481DB8741300E2CAF1 /* fondoFormasPago.png */,
@@ -733,6 +736,7 @@
 				38BC30C61D9C4C42008DD592 /* cita_doc.png in Resources */,
 				38BC30D01D9C4C42008DD592 /* flecha_verdeizq.png in Resources */,
 				38BC30E91D9C4C42008DD592 /* filtro-5.png in Resources */,
+				DC1C87B31DB98817004E3325 /* iconSexo.png in Resources */,
 				DC04064D1DB7269D004B92BB /* DocSets in Resources */,
 				38BC30B21D9C4C42008DD592 /* perro-login.png in Resources */,
 				38BC30AB1D9C4C42008DD592 /* head-home.png in Resources */,

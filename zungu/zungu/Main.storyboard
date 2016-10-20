@@ -1150,18 +1150,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BtL-rg-XZG">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BtL-rg-XZG">
                                 <frame key="frameInset" minY="19" width="320" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="peces.png" translatesAutoresizingMaskIntoConstraints="NO" id="Es6-bs-Mwt">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="peces.png" translatesAutoresizingMaskIntoConstraints="NO" id="Es6-bs-Mwt">
                                         <frame key="frameInset" width="320" height="59"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Registra tu Mascota" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZ7-R6-QHh">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Registra tu Mascota" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZ7-R6-QHh">
                                         <frame key="frameInset" minX="98" minY="19" width="160" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="7iH-OF-CCL"/>
-                                            <constraint firstAttribute="width" constant="69" id="fje-NO-Zwr"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1170,12 +1169,9 @@
                                         <frame key="frameInset" minX="49" minY="8" width="40" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQW-sW-Qcv">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQW-sW-Qcv">
                                         <frame key="frameInset" minX="262" minY="7" width="48" height="51"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="48" id="SKZ-yP-sLo"/>
-                                            <constraint firstAttribute="height" constant="51" id="nEX-ow-cBi"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="cascabel.png"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOa-aZ-Yxt">
@@ -1185,20 +1181,9 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.52941176469999995" green="0.7843137255" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Es6-bs-Mwt" secondAttribute="bottom" id="BHf-VE-v5H"/>
-                                    <constraint firstAttribute="trailing" secondItem="zQW-sW-Qcv" secondAttribute="trailing" constant="10" id="GYT-TT-soN"/>
-                                    <constraint firstItem="Es6-bs-Mwt" firstAttribute="leading" secondItem="BtL-rg-XZG" secondAttribute="leading" id="Mle-6v-6vr"/>
-                                    <constraint firstAttribute="trailing" secondItem="Es6-bs-Mwt" secondAttribute="trailing" id="Y3A-7W-iil"/>
-                                    <constraint firstAttribute="height" constant="59" id="YA7-DO-DHw"/>
-                                    <constraint firstItem="SZ7-R6-QHh" firstAttribute="centerX" secondItem="BtL-rg-XZG" secondAttribute="centerX" id="h24-fk-m26"/>
-                                    <constraint firstItem="Es6-bs-Mwt" firstAttribute="top" secondItem="BtL-rg-XZG" secondAttribute="top" id="hMn-7g-T56"/>
-                                    <constraint firstItem="zQW-sW-Qcv" firstAttribute="top" secondItem="BtL-rg-XZG" secondAttribute="top" constant="7" id="uua-uV-qCn"/>
-                                    <constraint firstItem="SZ7-R6-QHh" firstAttribute="top" secondItem="BtL-rg-XZG" secondAttribute="top" constant="19" id="y3f-bK-Yrg"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J0O-zV-VRr">
-                                <frame key="frameInset" minY="78" width="320" height="490"/>
+                                <frame key="frameInset" minY="78" width="320" height="482"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Datos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IX3-YF-N9y">
@@ -1209,88 +1194,101 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BEw-wZ-HXl">
-                                        <frame key="frameInset" minX="8" minY="37" width="70" height="74"/>
+                                        <frame key="frameInset" minX="8" minY="29" width="70" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="nombreMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hvB-cR-A7Y">
-                                        <frame key="frameInset" minX="86" minY="37" width="234" height="33"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="nombreMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hvB-cR-A7Y">
+                                        <frame key="frameInset" minX="86" minY="29" width="234" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.83921568629999999" green="0.92549019610000005" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="33" id="QHY-H4-ka1"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="nacimientoMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fecha de nacimiento" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Jp-Cu-uPH">
-                                        <frame key="frameInset" minX="86" minY="78" width="234" height="33"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="nacimientoMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fecha de nacimiento" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Jp-Cu-uPH">
+                                        <frame key="frameInset" minX="86" minY="70" width="234" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.83921568629999999" green="0.92549019610000005" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="33" id="rFc-9l-mwA"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zFt-tW-qBy">
-                                        <frame key="frameInset" minY="119" width="320" height="33"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zFt-tW-qBy">
+                                        <frame key="frameInset" minY="111" width="320" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.83921568629999999" green="0.92549019610000005" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="33" id="q0a-Je-5ao"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="razaMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Raza" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Pm-67-D9j">
-                                        <frame key="frameInset" minX="1" minY="160" width="151" height="33"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="razaMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Raza" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Pm-67-D9j">
+                                        <frame key="frameInset" minX="1" minY="152" width="151" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.83921568629999999" green="0.92549019610000005" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="33" id="ISg-RS-QpT"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="colorMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Color" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9VI-lX-WLu">
-                                        <frame key="frameInset" minX="1" minY="201" width="151" height="33"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="colorMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Color" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9VI-lX-WLu">
+                                        <frame key="frameInset" minX="1" minY="193" width="151" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.83921568629999999" green="0.92549019610000005" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="33" id="w8V-ND-i7r"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="pesoMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Peso" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EGG-iC-TU2">
-                                        <frame key="frameInset" minX="160" minY="160" width="160" height="33"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="pesoMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Peso" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EGG-iC-TU2">
+                                        <frame key="frameInset" minX="160" minY="152" width="160" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.83921568629999999" green="0.92549019610000005" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="33" id="GzB-9b-bL9"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="heatsMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Heats" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Sb-9b-QOj">
-                                        <frame key="frameInset" minX="160" minY="201" width="160" height="33"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="heatsMiMascota" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Heats" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Sb-9b-QOj">
+                                        <frame key="frameInset" minX="160" minY="193" width="160" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.83921568629999999" green="0.92549019610000005" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="33" id="fc5-Le-gKY"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" restorationIdentifier="seniasParticulares" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Señas particulares" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="reC-I6-tM9">
-                                        <frame key="frameInset" minY="283" width="320" height="61"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="seniasParticulares" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Señas particulares" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="reC-I6-tM9">
+                                        <frame key="frameInset" minY="262" width="320" height="61"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.83921568629999999" green="0.92549019610000005" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="33" id="KBa-XR-ToI"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khd-bF-73s">
-                                        <frame key="frameInset" minX="101" minY="366" width="119" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wt-AI-Tph">
+                                        <frame key="frameInset" minX="72" minY="234" width="71" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Macho" image="prendido2.png">
+                                            <color key="titleColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="accionMotivo1:" destination="2sH-tv-Z6b" eventType="touchUpInside" id="mBh-Bg-k2n"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UO-fS-4ve">
+                                        <frame key="frameInset" minX="170" minY="234" width="93" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Hembra" image="prendido2.png">
+                                            <color key="titleColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="accionMotivo1:" destination="2sH-tv-Z6b" eventType="touchUpInside" id="xaD-Im-Lbx"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconSexo.png" translatesAutoresizingMaskIntoConstraints="NO" id="3z2-dh-bjw">
+                                        <frame key="frameInset" minX="44" minY="234" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconSexo.png" translatesAutoresizingMaskIntoConstraints="NO" id="hk6-Rg-ZmB">
+                                        <frame key="frameInset" minX="142" minY="234" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khd-bF-73s">
+                                        <frame key="frameInset" minX="101" minY="340" width="119" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.46274509800000002" green="0.75294117650000003" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="VcK-JX-6Pg"/>
-                                            <constraint firstAttribute="width" constant="119" id="i91-CP-oym"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                                         <state key="normal" title="REGISTRAR">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1303,13 +1301,10 @@
                                             <action selector="registrarMascota:" destination="9Ok-Gn-a9P" eventType="touchUpInside" id="ROQ-57-UqF"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZI-Cm-sp1">
-                                        <frame key="frameInset" minX="88" minY="404" width="145" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZI-Cm-sp1">
+                                        <frame key="frameInset" minX="88" minY="378" width="145" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="113" id="91P-XZ-8rI"/>
-                                            <constraint firstAttribute="height" constant="30" id="Won-dc-ZP4"/>
-                                        </constraints>
                                         <state key="normal" title="Limpiar información">
                                             <color key="titleColor" red="0.46274509800000002" green="0.75294117650000003" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -9543,6 +9538,7 @@
         <image name="huella-ico-thumb.png" width="30" height="26"/>
         <image name="huella_cirulo.png" width="64" height="64"/>
         <image name="huella_gris.png" width="30" height="26"/>
+        <image name="iconSexo.png" width="20" height="17"/>
         <image name="image-paseador.png" width="564" height="578"/>
         <image name="insecto-ico.png" width="40" height="40"/>
         <image name="lock.png" width="14" height="18"/>
