@@ -6722,6 +6722,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="700"/>
                     <connections>
+                        <outlet property="lblEstado" destination="r7V-Ai-ONa" id="TRr-PL-GwT"/>
                         <outlet property="lblPais" destination="8pu-ei-uSB" id="Q2I-yo-4Vf"/>
                     </connections>
                 </viewController>
