@@ -28,6 +28,7 @@
 		38194BF61D7F9983008FAC36 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38194BF51D7F9983008FAC36 /* MenuViewController.swift */; };
 		38278A821D959F9000B9BB80 /* SwiftLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38278A811D959F9000B9BB80 /* SwiftLoading.swift */; };
 		382861E31D78FFA900A2A575 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382861E21D78FFA900A2A575 /* RegisterViewController.swift */; };
+		38304F071DB90AB400295DF0 /* FiltroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38304F061DB90AB400295DF0 /* FiltroViewController.swift */; };
 		3852EB521DB5263C00596D60 /* albums-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 3852EB511DB5263C00596D60 /* albums-ico.png */; };
 		3852EB541DB53C6300596D60 /* subir-camara-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 3852EB531DB53C6300596D60 /* subir-camara-ico.png */; };
 		3852EB591DB53F1300596D60 /* otro-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 3852EB551DB53F1300596D60 /* otro-ico.png */; };
@@ -205,6 +206,7 @@
 		38194BF51D7F9983008FAC36 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		38278A811D959F9000B9BB80 /* SwiftLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLoading.swift; sourceTree = "<group>"; };
 		382861E21D78FFA900A2A575 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		38304F061DB90AB400295DF0 /* FiltroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltroViewController.swift; sourceTree = "<group>"; };
 		3852EB511DB5263C00596D60 /* albums-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "albums-ico.png"; sourceTree = "<group>"; };
 		3852EB531DB53C6300596D60 /* subir-camara-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subir-camara-ico.png"; sourceTree = "<group>"; };
 		3852EB551DB53F1300596D60 /* otro-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "otro-ico.png"; sourceTree = "<group>"; };
@@ -451,6 +453,7 @@
 				389464F31DA2BBCB004979D7 /* MisPagosViewController.swift */,
 				38D11C7D1DB02A0500F39B75 /* MascotaAgregadaViewController.swift */,
 				38D11C871DB0662F00F39B75 /* CitaGuardadaViewController.swift */,
+				38304F061DB90AB400295DF0 /* FiltroViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -859,6 +862,7 @@
 				385CB9881D7A057200E167F4 /* HomeController.swift in Sources */,
 				38BC30F81D9CAF1E008DD592 /* ColTiendaCollectionViewCell.swift in Sources */,
 				38194BE01D7F5335008FAC36 /* TiendaViewController.swift in Sources */,
+				38304F071DB90AB400295DF0 /* FiltroViewController.swift in Sources */,
 				380E1A021D81BB1E00EF5A81 /* MenuAdoptarViewController.swift in Sources */,
 				380E1A041D81BF0800EF5A81 /* AdoptarDetalleViewController.swift in Sources */,
 				38BC305F1D9C3353008DD592 /* RatingControl.swift in Sources */,

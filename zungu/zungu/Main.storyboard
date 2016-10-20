@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NDF-CR-YGy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JJ9-7e-V6q">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -1151,9 +1151,7 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x0g-Cc-dU5">
                                         <subviews>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ri-T5-ct7">
-                                                <frame key="frameInset" width="320" height="59"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ri-T5-ct7">
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="peces.png" translatesAutoresizingMaskIntoConstraints="NO" id="vJ6-wD-fLf">
                                                         <frame key="frameInset" width="320" height="59"/>
@@ -1182,10 +1180,11 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.52941176469999995" green="0.7843137255" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="59" id="iZm-Uy-svR"/>
+                                                </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nAx-80-aVK">
-                                                <frame key="frameInset" minY="60" width="320" height="820"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAx-80-aVK">
                                                 <subviews>
                                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="veS-Pc-TlU">
                                                         <frame key="frameInset" minY="8" width="320" height="130"/>
@@ -1397,6 +1396,15 @@
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="5Ri-T5-ct7" firstAttribute="top" secondItem="x0g-Cc-dU5" secondAttribute="top" id="67Q-Uu-gpi"/>
+                                            <constraint firstItem="5Ri-T5-ct7" firstAttribute="leading" secondItem="x0g-Cc-dU5" secondAttribute="leading" id="HMr-JX-FSi"/>
+                                            <constraint firstAttribute="bottom" secondItem="nAx-80-aVK" secondAttribute="bottom" id="Heh-yb-QDQ"/>
+                                            <constraint firstItem="nAx-80-aVK" firstAttribute="leading" secondItem="x0g-Cc-dU5" secondAttribute="leading" id="XvO-WS-Cgk"/>
+                                            <constraint firstAttribute="trailing" secondItem="nAx-80-aVK" secondAttribute="trailing" id="fUg-Pp-7wK"/>
+                                            <constraint firstAttribute="trailing" secondItem="5Ri-T5-ct7" secondAttribute="trailing" id="gee-Tk-1lr"/>
+                                            <constraint firstItem="nAx-80-aVK" firstAttribute="top" secondItem="5Ri-T5-ct7" secondAttribute="bottom" constant="1" id="sgO-96-KSe"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -1850,7 +1858,7 @@
                         <viewControllerLayoutGuide type="bottom" id="L2r-Dx-hWi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="oub-PS-0k1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="788"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nYS-kd-2Vx">
@@ -2214,10 +2222,10 @@
             </objects>
             <point key="canvasLocation" x="825.60000000000002" y="2166.1169415292356"/>
         </scene>
-        <!--Menu Adoptar View Controller-->
+        <!--Filtro View Controller-->
         <scene sceneID="tXW-rH-hXc">
             <objects>
-                <viewController id="M0o-70-Qti" customClass="MenuAdoptarViewController" customModule="zungu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="M0o-70-Qti" customClass="FiltroViewController" customModule="zungu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nL8-93-gWk"/>
                         <viewControllerLayoutGuide type="bottom" id="ylm-Ts-OVQ"/>
@@ -2409,6 +2417,9 @@
                                                         <state key="normal" title="Aplicar">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="aplicarFiltro:" destination="M0o-70-Qti" eventType="touchUpInside" id="dhi-Nk-P8S"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axI-f8-4Ca">
                                                         <constraints>
@@ -2419,6 +2430,9 @@
                                                         <state key="normal" title="Limpiar filtro">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="limpiarFiltro:" destination="M0o-70-Qti" eventType="touchUpInside" id="5TO-vI-dxo"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -2803,7 +2817,7 @@
                         <viewControllerLayoutGuide type="bottom" id="4dX-H2-erl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="AKU-Fg-73a">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="788"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CmI-ny-8Ie">
@@ -8318,10 +8332,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="BOo-6Y-kT8"/>
         <segue reference="8fC-c5-sFi"/>
-        <segue reference="oEO-n7-bHN"/>
-        <segue reference="m5T-ub-ps7"/>
+        <segue reference="eYJ-n1-fln"/>
+        <segue reference="mHU-Pf-JLi"/>
         <segue reference="ma5-Qx-n1E"/>
-        <segue reference="aY2-43-1Qc"/>
+        <segue reference="spg-oM-x3w"/>
         <segue reference="Dq5-1V-XvB"/>
         <segue reference="HgO-Ir-6HW"/>
         <segue reference="dbj-uq-vpS"/>
