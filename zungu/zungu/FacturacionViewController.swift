@@ -10,8 +10,10 @@ import UIKit
 
 class FacturacionViewController: UIViewController {
     @IBOutlet var lblPais: UITextField!
+    @IBOutlet var lblEstado: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        lblPais.text = "bien"
         // Do any additional setup after loading the view.
     }
 
