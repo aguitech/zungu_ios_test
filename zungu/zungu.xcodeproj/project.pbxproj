@@ -29,6 +29,17 @@
 		38278A821D959F9000B9BB80 /* SwiftLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38278A811D959F9000B9BB80 /* SwiftLoading.swift */; };
 		382861E31D78FFA900A2A575 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382861E21D78FFA900A2A575 /* RegisterViewController.swift */; };
 		38304F071DB90AB400295DF0 /* FiltroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38304F061DB90AB400295DF0 /* FiltroViewController.swift */; };
+		38304F0E1DB90FF800295DF0 /* tienda-serivicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F081DB90FF800295DF0 /* tienda-serivicio.png */; };
+		38304F0F1DB90FF800295DF0 /* medicina-alternativa.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F091DB90FF800295DF0 /* medicina-alternativa.png */; };
+		38304F101DB90FF800295DF0 /* establecimientos-servicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F0A1DB90FF800295DF0 /* establecimientos-servicio.png */; };
+		38304F111DB90FF800295DF0 /* criador-servicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F0B1DB90FF800295DF0 /* criador-servicio.png */; };
+		38304F121DB90FF800295DF0 /* entrenador-servicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F0C1DB90FF800295DF0 /* entrenador-servicio.png */; };
+		38304F131DB90FF800295DF0 /* paseador-servicio.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F0D1DB90FF800295DF0 /* paseador-servicio.png */; };
+		38304F151DB9166500295DF0 /* flecha-return.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F141DB9166500295DF0 /* flecha-return.png */; };
+		38304F171DB928B400295DF0 /* image-paseador.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F161DB928B400295DF0 /* image-paseador.png */; };
+		38304F191DB9294800295DF0 /* mapa-paseador.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F181DB9294800295DF0 /* mapa-paseador.png */; };
+		38304F1B1DB92C2400295DF0 /* relog-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F1A1DB92C2400295DF0 /* relog-ico.png */; };
+		38304F1D1DB93E1E00295DF0 /* perro_icono.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F1C1DB93E1E00295DF0 /* perro_icono.png */; };
 		3852EB521DB5263C00596D60 /* albums-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 3852EB511DB5263C00596D60 /* albums-ico.png */; };
 		3852EB541DB53C6300596D60 /* subir-camara-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 3852EB531DB53C6300596D60 /* subir-camara-ico.png */; };
 		3852EB591DB53F1300596D60 /* otro-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 3852EB551DB53F1300596D60 /* otro-ico.png */; };
@@ -207,6 +218,17 @@
 		38278A811D959F9000B9BB80 /* SwiftLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLoading.swift; sourceTree = "<group>"; };
 		382861E21D78FFA900A2A575 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		38304F061DB90AB400295DF0 /* FiltroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltroViewController.swift; sourceTree = "<group>"; };
+		38304F081DB90FF800295DF0 /* tienda-serivicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tienda-serivicio.png"; sourceTree = "<group>"; };
+		38304F091DB90FF800295DF0 /* medicina-alternativa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medicina-alternativa.png"; sourceTree = "<group>"; };
+		38304F0A1DB90FF800295DF0 /* establecimientos-servicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "establecimientos-servicio.png"; sourceTree = "<group>"; };
+		38304F0B1DB90FF800295DF0 /* criador-servicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "criador-servicio.png"; sourceTree = "<group>"; };
+		38304F0C1DB90FF800295DF0 /* entrenador-servicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "entrenador-servicio.png"; sourceTree = "<group>"; };
+		38304F0D1DB90FF800295DF0 /* paseador-servicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paseador-servicio.png"; sourceTree = "<group>"; };
+		38304F141DB9166500295DF0 /* flecha-return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flecha-return.png"; sourceTree = "<group>"; };
+		38304F161DB928B400295DF0 /* image-paseador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-paseador.png"; sourceTree = "<group>"; };
+		38304F181DB9294800295DF0 /* mapa-paseador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapa-paseador.png"; sourceTree = "<group>"; };
+		38304F1A1DB92C2400295DF0 /* relog-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "relog-ico.png"; sourceTree = "<group>"; };
+		38304F1C1DB93E1E00295DF0 /* perro_icono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perro_icono.png; sourceTree = "<group>"; };
 		3852EB511DB5263C00596D60 /* albums-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "albums-ico.png"; sourceTree = "<group>"; };
 		3852EB531DB53C6300596D60 /* subir-camara-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subir-camara-ico.png"; sourceTree = "<group>"; };
 		3852EB551DB53F1300596D60 /* otro-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "otro-ico.png"; sourceTree = "<group>"; };
@@ -461,8 +483,13 @@
 		38BC30621D9C4C35008DD592 /* imagen */ = {
 			isa = PBXGroup;
 			children = (
+				38304F161DB928B400295DF0 /* image-paseador.png */,
 				DCFD21481DB8741300E2CAF1 /* fondoFormasPago.png */,
 				DCFD21491DB8741300E2CAF1 /* InstruccionesSPEI.png */,
+				38304F1C1DB93E1E00295DF0 /* perro_icono.png */,
+				38304F181DB9294800295DF0 /* mapa-paseador.png */,
+				38304F1A1DB92C2400295DF0 /* relog-ico.png */,
+				38304F141DB9166500295DF0 /* flecha-return.png */,
 				3803DF7C1DB84783005E4BE3 /* menos-ico.png */,
 				3803DF7D1DB84783005E4BE3 /* plus-ico.png */,
 				386CAA621DB7E51200B54FDD /* lapiz-editar-ico.png */,
@@ -485,6 +512,12 @@
 				3852EB551DB53F1300596D60 /* otro-ico.png */,
 				3852EB561DB53F1300596D60 /* reptil-ico.png */,
 				3852EB651DB5416C00596D60 /* huella-ico-med.png */,
+				38304F081DB90FF800295DF0 /* tienda-serivicio.png */,
+				38304F091DB90FF800295DF0 /* medicina-alternativa.png */,
+				38304F0A1DB90FF800295DF0 /* establecimientos-servicio.png */,
+				38304F0B1DB90FF800295DF0 /* criador-servicio.png */,
+				38304F0C1DB90FF800295DF0 /* entrenador-servicio.png */,
+				38304F0D1DB90FF800295DF0 /* paseador-servicio.png */,
 				3852EB661DB5416C00596D60 /* huella-ico-thumb.png */,
 				3852EB671DB5416C00596D60 /* huella-ico-gde.png */,
 				3852EB571DB53F1300596D60 /* ave-ico.png */,
@@ -707,6 +740,7 @@
 				38BC30D91D9C4C42008DD592 /* regresar.png in Resources */,
 				386CAA5B1DB73C4000B54FDD /* button-selected.png in Resources */,
 				38BC30CD1D9C4C42008DD592 /* corazon_verde.png in Resources */,
+				38304F1B1DB92C2400295DF0 /* relog-ico.png in Resources */,
 				38BC30D61D9C4C42008DD592 /* citas.png in Resources */,
 				38BC30F61D9CAC45008DD592 /* carrito.png in Resources */,
 				389C9FC21DAD496400A508EF /* share_button.png in Resources */,
@@ -721,6 +755,7 @@
 				38BC30F01D9C8E04008DD592 /* huella_gris.png in Resources */,
 				38BC30DA1D9C4C42008DD592 /* menu_dog.png in Resources */,
 				38BC30B91D9C4C42008DD592 /* agregar.png in Resources */,
+				38304F101DB90FF800295DF0 /* establecimientos-servicio.png in Resources */,
 				38BC30CA1D9C4C42008DD592 /* peces.png in Resources */,
 				386CAA5A1DB73C4000B54FDD /* prendido2.png in Resources */,
 				38BC30C81D9C4C42008DD592 /* gato.png in Resources */,
@@ -743,6 +778,7 @@
 				3852EB5B1DB53F1300596D60 /* ave-ico.png in Resources */,
 				386CAA5F1DB7D00200B54FDD /* button-selected2.png in Resources */,
 				38BEFC481D8E5C6B002D7253 /* gif2.gif in Resources */,
+				38304F0E1DB90FF800295DF0 /* tienda-serivicio.png in Resources */,
 				38D11C7C1DB0207E00F39B75 /* fondo_corazones.png in Resources */,
 				38BC30D51D9C4C42008DD592 /* servicios.png in Resources */,
 				389C9FC71DAD588200A508EF /* flecha_derecha.png in Resources */,
@@ -750,6 +786,7 @@
 				38F5C33B1DAEB84F007B6468 /* fondo_popup.png in Resources */,
 				3852EB6A1DB5416C00596D60 /* huella-ico-gde.png in Resources */,
 				38BC30C21D9C4C42008DD592 /* reptiles.png in Resources */,
+				38304F1D1DB93E1E00295DF0 /* perro_icono.png in Resources */,
 				3878AABB1DA41C7D000816B6 /* lock.png in Resources */,
 				38BC30B81D9C4C42008DD592 /* doc-circulo1.png in Resources */,
 				DC0406561DB7269D004B92BB /* README.txt in Resources */,
@@ -790,10 +827,15 @@
 				38D11C801DB0455D00F39B75 /* raton_juguete.jpg in Resources */,
 				38BC30EB1D9C4C42008DD592 /* menu.png in Resources */,
 				3852EB521DB5263C00596D60 /* albums-ico.png in Resources */,
+				38304F0F1DB90FF800295DF0 /* medicina-alternativa.png in Resources */,
 				38BC30D31D9C4C42008DD592 /* mi_perfil.png in Resources */,
+				38304F191DB9294800295DF0 /* mapa-paseador.png in Resources */,
+				38304F131DB90FF800295DF0 /* paseador-servicio.png in Resources */,
 				38BEFC461D8E5C6B002D7253 /* gif3.gif in Resources */,
 				38BC30E21D9C4C42008DD592 /* filtro-1.png in Resources */,
+				38304F111DB90FF800295DF0 /* criador-servicio.png in Resources */,
 				3852EB691DB5416C00596D60 /* huella-ico-thumb.png in Resources */,
+				38304F121DB90FF800295DF0 /* entrenador-servicio.png in Resources */,
 				38BC30BD1D9C4C42008DD592 /* estetica_activado.png in Resources */,
 				0453CDBC1DB6C387000552E4 /* slide1.png in Resources */,
 				38BC30E31D9C4C42008DD592 /* flecha_menu.png in Resources */,
@@ -803,12 +845,14 @@
 				38BC30F41D9C8F0E008DD592 /* prendido.png in Resources */,
 				38BC30C31D9C4C42008DD592 /* otro.png in Resources */,
 				DC04064B1DB7269D004B92BB /* AccountKitStrings.bundle in Resources */,
+				38304F151DB9166500295DF0 /* flecha-return.png in Resources */,
 				386CAA631DB7E51200B54FDD /* lapiz-editar-ico.png in Resources */,
 				38BC30CE1D9C4C42008DD592 /* hora_consulta.png in Resources */,
 				38BC30E61D9C4C42008DD592 /* estetica.png in Resources */,
 				38BC30C41D9C4C42008DD592 /* gatodos.png in Resources */,
 				38BC30EA1D9C4C42008DD592 /* cercademi.png in Resources */,
 				38BC30CB1D9C4C42008DD592 /* perfil.png in Resources */,
+				38304F171DB928B400295DF0 /* image-paseador.png in Resources */,
 				38BC30F31D9C8F0E008DD592 /* apagado.png in Resources */,
 				389464F21DA2B94C004979D7 /* cat-toy.png in Resources */,
 				389C9FBE1DAD38BF00A508EF /* huella-gris.png in Resources */,
