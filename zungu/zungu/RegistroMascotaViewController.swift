@@ -1,36 +1,28 @@
 //
-//  PagoSPEIViewController.swift
+//  MenuViewController.swift
 //  zungu
 //
-//  Created by Hector Aguilar on 19/10/16.
+//  Created by Hector Aguilar on 20/10/16.
 //  Copyright © 2016 Giovanni Aranda. All rights reserved.
 //
 
-
 import UIKit
 
-
-
-class PagoSPEIViewController: UIViewController, UINavigationControllerDelegate {
-    /*
-    @IBOutlet weak var nombreTarjeta: UITextField!
-    @IBOutlet weak var numeroTarjeta: UITextField!
-    @IBOutlet weak var cantidadPago: UITextField!
-    @IBOutlet weak var email: UITextField!
-    @IBOutlet weak var cvvTarjeta: UITextField!
-    @IBOutlet weak var mesTarjeta: UITextField!
-    @IBOutlet weak var anioTarjeta: UITextField!
-    @IBOutlet weak var pais: UITextField!
-    @IBOutlet weak var estado: UITextField!
-    @IBOutlet weak var codigoPostal: UITextField!
- */
+class RegistroMascotaController: UIViewController {
     
-    @IBOutlet weak var pais: UITextField!
+    @IBOutlet weak var nombreMiMascota: UITextField!
     
+    @IBOutlet weak var nacimientoMiMascota: UITextField!
     
-    @IBOutlet weak var estado: UITextField!
-    @IBOutlet weak var codigoPostal: UITextField!
+    @IBOutlet weak var razaMiMascota: UITextField!
     
+    @IBOutlet weak var pesoMiMascota: UITextField!
+    
+    @IBOutlet weak var colorMiMascota: UITextField!
+    
+    @IBOutlet weak var heatsMiMascota: UITextField!
+    
+    @IBOutlet weak var seniasParticulares: UITextField!
     
     let id_usuario = 1
     
@@ -41,20 +33,29 @@ class PagoSPEIViewController: UIViewController, UINavigationControllerDelegate {
     }
     
     
-    
-    
-    @IBAction func guardarSPEI(sender: UIButton) {
-        if(pais.text!.isEmpty || estado.text!.isEmpty || codigoPostal.text!.isEmpty) {
+    @IBAction func registrarMascota(sender: UIButton) {
+        if(nombreMiMascota.text!.isEmpty || nacimientoMiMascota.text!.isEmpty || razaMiMascota.text!.isEmpty || pesoMiMascota.text!.isEmpty || colorMiMascota.text!.isEmpty || heatsMiMascota.text!.isEmpty || seniasParticulares.text!.isEmpty) {
             print("entroerror")
-            pais.attributedPlaceholder = NSAttributedString(string: "PAIS", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+            nombreMiMascota.attributedPlaceholder = NSAttributedString(string: "Nombre", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
             
-            estado.attributedPlaceholder = NSAttributedString(string: "ESTADO", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+            nacimientoMiMascota.attributedPlaceholder = NSAttributedString(string: "Fecha de nacimiento", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
             
-            codigoPostal.attributedPlaceholder = NSAttributedString(string: "CP", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+            razaMiMascota.attributedPlaceholder = NSAttributedString(string: "Raza", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+            
+           
+            
+            pesoMiMascota.attributedPlaceholder = NSAttributedString(string: "Peso", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+            
+            colorMiMascota.attributedPlaceholder = NSAttributedString(string: "Color", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+            
+            heatsMiMascota.attributedPlaceholder = NSAttributedString(string: "Heats", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+            
+            seniasParticulares.attributedPlaceholder = NSAttributedString(string: "Señas particulares", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+
             
         }else{
             print("entro");
-            let url = NSURL(string: "http://hyperion.init-code.com/zungu/app/agregar_spei.php")
+            let url = NSURL(string: "http://hyperion.init-code.com/zungu/app/agregar_mascota.php")
             let request = NSMutableURLRequest(URL: url!)
             request.HTTPMethod = "POST"
             
@@ -69,7 +70,7 @@ class PagoSPEIViewController: UIViewController, UINavigationControllerDelegate {
              }
              */
             
-            let body = "id_usuario=\(id_usuario)&pais=\(pais.text!)&estado=\(estado.text!)&codigoPostal=\(codigoPostal.text!)"
+            let body = "id_usuario=\(id_usuario)&nombre=\(nombreMiMascota.text!)&fecha_nacimiento=\(nacimientoMiMascota.text!)&raza=\(razaMiMascota.text!)&peso=\(pesoMiMascota.text!)&color=\(colorMiMascota.text!)&heats=\(heatsMiMascota.text!)&senias_particulares=\(seniasParticulares.text!)"
             
             
             
@@ -112,6 +113,11 @@ class PagoSPEIViewController: UIViewController, UINavigationControllerDelegate {
             }).resume()
         }
     }
+    
+    @IBAction func limpiarInformacion(sender: UIButton) {
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -190,6 +190,7 @@
 		DC0406541DB7269D004B92BB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0406471DB7269D004B92BB /* FBSDKShareKit.framework */; };
 		DC0406551DB7269D004B92BB /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC0406481DB7269D004B92BB /* LICENSE.txt */; };
 		DC0406561DB7269D004B92BB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC0406491DB7269D004B92BB /* README.txt */; };
+		DC1C87B11DB9750E004E3325 /* RegistroMascotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C87B01DB9750E004E3325 /* RegistroMascotaViewController.swift */; };
 		DCFD214A1DB8741300E2CAF1 /* fondoFormasPago.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFD21481DB8741300E2CAF1 /* fondoFormasPago.png */; };
 		DCFD214B1DB8741300E2CAF1 /* InstruccionesSPEI.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFD21491DB8741300E2CAF1 /* InstruccionesSPEI.png */; };
 		DCFD214E1DB877CA00E2CAF1 /* PagoSPEIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD214C1DB877CA00E2CAF1 /* PagoSPEIViewController.swift */; };
@@ -382,6 +383,7 @@
 		DC0406471DB7269D004B92BB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		DC0406481DB7269D004B92BB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		DC0406491DB7269D004B92BB /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		DC1C87B01DB9750E004E3325 /* RegistroMascotaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroMascotaViewController.swift; sourceTree = "<group>"; };
 		DCFD21481DB8741300E2CAF1 /* fondoFormasPago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoFormasPago.png; sourceTree = "<group>"; };
 		DCFD21491DB8741300E2CAF1 /* InstruccionesSPEI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstruccionesSPEI.png; sourceTree = "<group>"; };
 		DCFD214C1DB877CA00E2CAF1 /* PagoSPEIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagoSPEIViewController.swift; sourceTree = "<group>"; };
@@ -478,6 +480,7 @@
 				38D11C7D1DB02A0500F39B75 /* MascotaAgregadaViewController.swift */,
 				38D11C871DB0662F00F39B75 /* CitaGuardadaViewController.swift */,
 				38304F061DB90AB400295DF0 /* FiltroViewController.swift */,
+				DC1C87B01DB9750E004E3325 /* RegistroMascotaViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -888,6 +891,7 @@
 				DCFD214E1DB877CA00E2CAF1 /* PagoSPEIViewController.swift in Sources */,
 				38194BC21D7E10DD008FAC36 /* AdoptarViewController.swift in Sources */,
 				3860DD0B1D9AE94C00DF3E74 /* AgendarCitaViewController.swift in Sources */,
+				DC1C87B11DB9750E004E3325 /* RegistroMascotaViewController.swift in Sources */,
 				38D11C821DB048C800F39B75 /* PopUpAnuncioViewController.swift in Sources */,
 				38F44DCC1D91F4E3007D8FD4 /* ColMascotasCollectionViewCell.swift in Sources */,
 				38D11C881DB0662F00F39B75 /* CitaGuardadaViewController.swift in Sources */,

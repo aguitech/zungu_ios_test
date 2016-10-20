@@ -49,7 +49,7 @@ class PagoTDCViewController: UIViewController, UINavigationControllerDelegate {
             
             pais.attributedPlaceholder = NSAttributedString(string: "PAIS", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
             
-            estado.attributedPlaceholder = NSAttributedString(string: "EStADO", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+            estado.attributedPlaceholder = NSAttributedString(string: "ESTADO", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
             
             codigoPostal.attributedPlaceholder = NSAttributedString(string: "CP", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
             
