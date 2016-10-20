@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="G90-Of-DPF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oaP-PL-qfI">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -5674,11 +5674,11 @@
                                     <constraint firstAttribute="height" constant="311" id="gFl-nq-FV7"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellCarrito" rowHeight="101" id="2bU-kY-NEd" customClass="CellCarritoTableViewCell" customModule="zungu" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="1000" height="101"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellCarrito" rowHeight="101" id="2bU-kY-NEd" customClass="CellCarritoTableViewCell" customModule="zungu" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="304" height="101"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2bU-kY-NEd" id="GNK-G2-T2c">
-                                            <frame key="frameInset" width="1000" height="100"/>
+                                            <frame key="frameInset" width="304" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DTp-iA-raS">
@@ -6812,11 +6812,11 @@
                                     <constraint firstAttribute="height" constant="300" id="eaK-5P-5J2"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="default" indentationWidth="10" rowHeight="81" id="zHc-av-9v3">
-                                        <rect key="frame" x="0.0" y="28" width="1000" height="81"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="81" id="zHc-av-9v3">
+                                        <rect key="frame" x="0.0" y="28" width="304" height="81"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zHc-av-9v3" id="o5X-zS-3du">
-                                            <frame key="frameInset" width="1000" height="80"/>
+                                            <frame key="frameInset" width="304" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RSW-ww-cu7">
@@ -6994,6 +6994,9 @@
                                                 <state key="normal" title="Tarjeta de crédito">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="zYW-XZ-0xl" kind="show" id="5AA-iv-DQ1"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzm-dO-GNJ">
                                                 <frame key="frameInset" minX="8" minY="162" width="224" height="30"/>
@@ -7169,6 +7172,9 @@
                                         <state key="normal" title="Volver">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="oaP-PL-qfI" kind="show" id="Lkk-FJ-SKo"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.46274509800000002" green="0.75294117650000003" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
