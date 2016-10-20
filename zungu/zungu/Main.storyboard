@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JJ9-7e-V6q">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wqK-aa-cE2">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -55,8 +55,8 @@
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F3w-27-6Qr">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="9wi-rw-kjD"/>
-                                    <constraint firstAttribute="height" constant="20" id="J0f-WW-W13"/>
+                                    <constraint firstAttribute="width" constant="180" id="5l1-QV-Xne"/>
+                                    <constraint firstAttribute="height" constant="10" id="iRh-2t-dJ3"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -64,16 +64,16 @@
                         <constraints>
                             <constraint firstItem="Mwb-bK-v9e" firstAttribute="leading" secondItem="UNQ-UU-FMe" secondAttribute="leadingMargin" constant="-20" id="1as-Xm-SoD"/>
                             <constraint firstItem="oOv-Rh-h6V" firstAttribute="centerX" secondItem="UNQ-UU-FMe" secondAttribute="centerX" id="6jI-go-kbQ"/>
+                            <constraint firstItem="PFA-0h-bvQ" firstAttribute="top" secondItem="F3w-27-6Qr" secondAttribute="bottom" constant="28" id="EGn-a7-jWH"/>
                             <constraint firstItem="Mwb-bK-v9e" firstAttribute="top" secondItem="UNQ-UU-FMe" secondAttribute="topMargin" id="HhV-QU-0BE"/>
                             <constraint firstItem="Mwb-bK-v9e" firstAttribute="centerX" secondItem="UNQ-UU-FMe" secondAttribute="centerX" id="QBh-jk-IUH"/>
                             <constraint firstItem="Mwb-bK-v9e" firstAttribute="centerY" secondItem="UNQ-UU-FMe" secondAttribute="centerY" id="QIV-ok-F6x"/>
-                            <constraint firstItem="F3w-27-6Qr" firstAttribute="centerX" secondItem="UNQ-UU-FMe" secondAttribute="centerX" id="QpA-fp-BnG"/>
                             <constraint firstItem="11R-NB-Xby" firstAttribute="centerX" secondItem="UNQ-UU-FMe" secondAttribute="centerX" id="TzC-ui-cv1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Mwb-bK-v9e" secondAttribute="trailing" constant="-20" id="UEY-fH-bEp"/>
                             <constraint firstItem="oOv-Rh-h6V" firstAttribute="top" secondItem="D2l-3D-mhs" secondAttribute="bottom" constant="8" id="abP-hj-l85"/>
                             <constraint firstItem="PFA-0h-bvQ" firstAttribute="top" secondItem="Mwb-bK-v9e" secondAttribute="bottom" id="bWi-qP-Sub"/>
+                            <constraint firstItem="F3w-27-6Qr" firstAttribute="centerX" secondItem="UNQ-UU-FMe" secondAttribute="centerX" id="h2p-cT-tLs"/>
                             <constraint firstItem="PFA-0h-bvQ" firstAttribute="top" secondItem="11R-NB-Xby" secondAttribute="bottom" constant="78" id="nBI-rP-3T3"/>
-                            <constraint firstItem="PFA-0h-bvQ" firstAttribute="top" secondItem="F3w-27-6Qr" secondAttribute="bottom" constant="28" id="wi0-25-en1"/>
                         </constraints>
                     </view>
                     <connections>
@@ -84,7 +84,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P30-jh-O2B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="354"/>
+            <point key="canvasLocation" x="138.75" y="353.87323943661971"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ykk-oJ-LtC">
@@ -916,7 +916,7 @@
                                         </constraints>
                                         <state key="normal" image="cascabel.png"/>
                                         <connections>
-                                            <segue destination="n4h-dN-xcU" kind="show" id="J7u-II-t7X"/>
+                                            <segue destination="n4h-dN-xcU" kind="show" animates="NO" id="J7u-II-t7X"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZf-Wh-amA">
@@ -924,7 +924,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="menu.png"/>
                                         <connections>
-                                            <segue destination="4Mn-lC-LYz" kind="show" id="RmS-lA-J1N"/>
+                                            <segue destination="4Mn-lC-LYz" kind="show" animates="NO" id="RmS-lA-J1N"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -950,7 +950,7 @@
                                     <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35g-T0-wfN">
                                         <frame key="frameInset" width="320" height="240"/>
                                         <connections>
-                                            <segue destination="tBY-9e-ACn" kind="show" id="bER-fK-xEg"/>
+                                            <segue destination="tBY-9e-ACn" kind="show" animates="NO" id="bER-fK-xEg"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -978,7 +978,7 @@
                                         </constraints>
                                         <state key="normal" image="filtro-2.png"/>
                                         <connections>
-                                            <segue destination="M0o-70-Qti" kind="show" id="mwA-gs-ICb"/>
+                                            <segue destination="M0o-70-Qti" kind="show" animates="NO" id="mwA-gs-ICb"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ba0-8X-1Os">
@@ -997,7 +997,7 @@
                                         </constraints>
                                         <state key="normal" image="filtro-3.png"/>
                                         <connections>
-                                            <segue destination="ZWM-2O-KOh" kind="show" id="9Wq-EU-fEV"/>
+                                            <segue destination="ZWM-2O-KOh" kind="show" animates="NO" id="9Wq-EU-fEV"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLp-k3-O8e">
@@ -1008,7 +1008,7 @@
                                         </constraints>
                                         <state key="normal" image="filtro-4.png"/>
                                         <connections>
-                                            <segue destination="YEF-lY-NZF" kind="show" id="aY2-43-1Qc"/>
+                                            <segue destination="YEF-lY-NZF" kind="show" animates="NO" id="aY2-43-1Qc"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kb4-3p-D2O">
@@ -1019,7 +1019,7 @@
                                         </constraints>
                                         <state key="normal" image="filtro-5.png"/>
                                         <connections>
-                                            <segue destination="KEN-0C-8qJ" kind="show" id="BOo-6Y-kT8"/>
+                                            <segue destination="KEN-0C-8qJ" kind="show" animates="NO" id="BOo-6Y-kT8"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1712,7 +1712,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="YEF-lY-NZF" kind="show" id="yN4-QR-bU5"/>
+                                            <segue destination="YEF-lY-NZF" kind="show" animates="NO" id="yN4-QR-bU5"/>
                                         </connections>
                                     </button>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bEs-dl-JHG">
@@ -1861,7 +1861,7 @@
                         <viewControllerLayoutGuide type="bottom" id="L2r-Dx-hWi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="oub-PS-0k1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nYS-kd-2Vx">
@@ -1891,13 +1891,16 @@
                                         </constraints>
                                         <state key="normal" image="filtro-3.png"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3XV-et-kKq">
+                                    <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3XV-et-kKq">
                                         <frame key="frameInset" minX="183" minY="13" width="20" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="UzG-yu-NHB"/>
                                             <constraint firstAttribute="height" constant="20" id="hhT-zl-8U5"/>
                                         </constraints>
-                                        <state key="normal" image="filtro-4.png"/>
+                                        <state key="normal" image="slider-ico.png"/>
+                                        <connections>
+                                            <segue destination="VlP-MZ-HRx" kind="show" animates="NO" id="mXQ-rr-0PV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSn-zH-vyu">
                                         <frame key="frameInset" minX="211" minY="13" width="20" height="20"/>
@@ -2345,7 +2348,7 @@
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="YEF-lY-NZF" kind="show" id="spg-oM-x3w"/>
+                                                    <segue destination="YEF-lY-NZF" kind="show" animates="NO" id="spg-oM-x3w"/>
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VKg-2c-SrJ">
@@ -9370,6 +9373,7 @@
         <image name="roedor.png" width="40" height="40"/>
         <image name="servicios.png" width="30" height="30"/>
         <image name="share_button.png" width="26" height="28"/>
+        <image name="slider-ico.png" width="20" height="17"/>
         <image name="stethoscope_menu.png" width="51" height="48"/>
         <image name="subir-camara-ico.png" width="176" height="162"/>
         <image name="tienda-serivicio.png" width="20" height="19"/>
@@ -9377,16 +9381,16 @@
         <image name="visa-ico-png.png" width="138" height="88"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BOo-6Y-kT8"/>
-        <segue reference="k5y-Or-Flx"/>
-        <segue reference="edy-Nv-Bst"/>
-        <segue reference="hY0-y2-sNR"/>
-        <segue reference="48o-D6-X3J"/>
+        <segue reference="pSy-ez-05N"/>
+        <segue reference="rCJ-FM-AXZ"/>
+        <segue reference="yN4-QR-bU5"/>
+        <segue reference="EAL-hE-trA"/>
+        <segue reference="mXQ-rr-0PV"/>
         <segue reference="Y2v-hA-qLo"/>
         <segue reference="yf8-I8-4oH"/>
-        <segue reference="spg-oM-x3w"/>
         <segue reference="Dq5-1V-XvB"/>
         <segue reference="HgO-Ir-6HW"/>
-        <segue reference="j1i-0f-Ccm"/>
+        <segue reference="hY0-y2-sNR"/>
+        <segue reference="48o-D6-X3J"/>
     </inferredMetricsTieBreakers>
 </document>

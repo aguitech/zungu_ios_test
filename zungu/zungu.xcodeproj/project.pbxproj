@@ -40,6 +40,7 @@
 		38304F191DB9294800295DF0 /* mapa-paseador.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F181DB9294800295DF0 /* mapa-paseador.png */; };
 		38304F1B1DB92C2400295DF0 /* relog-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F1A1DB92C2400295DF0 /* relog-ico.png */; };
 		38304F1D1DB93E1E00295DF0 /* perro_icono.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F1C1DB93E1E00295DF0 /* perro_icono.png */; };
+		38304F1F1DB9458600295DF0 /* slider-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 38304F1E1DB9458600295DF0 /* slider-ico.png */; };
 		3852EB521DB5263C00596D60 /* albums-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 3852EB511DB5263C00596D60 /* albums-ico.png */; };
 		3852EB541DB53C6300596D60 /* subir-camara-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 3852EB531DB53C6300596D60 /* subir-camara-ico.png */; };
 		3852EB591DB53F1300596D60 /* otro-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 3852EB551DB53F1300596D60 /* otro-ico.png */; };
@@ -229,6 +230,7 @@
 		38304F181DB9294800295DF0 /* mapa-paseador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapa-paseador.png"; sourceTree = "<group>"; };
 		38304F1A1DB92C2400295DF0 /* relog-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "relog-ico.png"; sourceTree = "<group>"; };
 		38304F1C1DB93E1E00295DF0 /* perro_icono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perro_icono.png; sourceTree = "<group>"; };
+		38304F1E1DB9458600295DF0 /* slider-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-ico.png"; sourceTree = "<group>"; };
 		3852EB511DB5263C00596D60 /* albums-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "albums-ico.png"; sourceTree = "<group>"; };
 		3852EB531DB53C6300596D60 /* subir-camara-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subir-camara-ico.png"; sourceTree = "<group>"; };
 		3852EB551DB53F1300596D60 /* otro-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "otro-ico.png"; sourceTree = "<group>"; };
@@ -483,6 +485,7 @@
 		38BC30621D9C4C35008DD592 /* imagen */ = {
 			isa = PBXGroup;
 			children = (
+				38304F1E1DB9458600295DF0 /* slider-ico.png */,
 				38304F161DB928B400295DF0 /* image-paseador.png */,
 				DCFD21481DB8741300E2CAF1 /* fondoFormasPago.png */,
 				DCFD21491DB8741300E2CAF1 /* InstruccionesSPEI.png */,
@@ -825,6 +828,7 @@
 				38BC30C01D9C4C42008DD592 /* ave.png in Resources */,
 				38F5C33D1DAEBC02007B6468 /* huella_cirulo.png in Resources */,
 				38D11C801DB0455D00F39B75 /* raton_juguete.jpg in Resources */,
+				38304F1F1DB9458600295DF0 /* slider-ico.png in Resources */,
 				38BC30EB1D9C4C42008DD592 /* menu.png in Resources */,
 				3852EB521DB5263C00596D60 /* albums-ico.png in Resources */,
 				38304F0F1DB90FF800295DF0 /* medicina-alternativa.png in Resources */,

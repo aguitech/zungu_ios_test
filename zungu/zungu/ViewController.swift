@@ -23,9 +23,9 @@ class ViewController: UIPageViewController, UIPageViewControllerDataSource{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.arrPageTitle = ["Encuentra el mejor veterinario para el cuidado de tu mascota","Adopta un amigo y cuida de él,ubica la mascota ideal para ti","Administra el perfil de tu mascota y compártelo con familiares y amigos","Forma parte de nuestra red veterinaria y encuentra todos los servicios que tu mascota necesita.","hola"]
-        self.arrPagePhoto = ["gif1","gif2","gif3","gif1"]
-        self.arrPageSlider = ["slide1","slide2","slide3","slide1"]
+        self.arrPageTitle = ["Encuentra el mejor veterinario para el cuidado de tu mascota","Adopta un amigo y cuida de él,ubica la mascota ideal para ti","Administra el perfil de tu mascota y compártelo con familiares y amigos"]
+        self.arrPagePhoto = ["gif1","gif2","gif3"]
+        self.arrPageSlider = ["slide1","slide2","slide3"]
         
         
         self.dataSource = self
@@ -43,7 +43,7 @@ class ViewController: UIPageViewController, UIPageViewControllerDataSource{
             //let currentLevel = preferences.objectForKey(currentLevelKey)
             let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
             
-            let nextViewController = storyBoard.instantiateViewControllerWithIdentifier("HomeView") as! HomeController
+            let nextViewController = storyBoard.instantiateViewControllerWithIdentifier("RegisterController") as! RegisterViewController
             self.presentViewController(nextViewController, animated:false, completion:nil)
             
             
@@ -78,21 +78,33 @@ class ViewController: UIPageViewController, UIPageViewControllerDataSource{
         {
             let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
             
-            let nextViewController = storyBoard.instantiateViewControllerWithIdentifier("HomeView") as! HomeController
-            self.presentViewController(nextViewController, animated:true, completion:nil)
+            let nextViewController = storyBoard.instantiateViewControllerWithIdentifier("RegisterController") as! RegisterViewController
+            self.presentViewController(nextViewController, animated:false, completion:nil)
+            
+            return nil
         }
         return getViewControllerAtIndex(index)
+    }
+    
+    func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int{
+        return arrPageTitle.count
     }
     
     func getViewControllerAtIndex(index: NSInteger) -> PagePantalla2Controller
     {
         // Create a new view controller and pass suitable data.
-        let pageContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageContentViewController") as! PagePantalla2Controller
-        pageContentViewController.titleIndex = "\(arrPageTitle[index])"
-        pageContentViewController.imageFIle = "\(arrPagePhoto[index])"
-        pageContentViewController.textoSlider = "\(arrPageSlider[index])"
-        pageContentViewController.pageIndex = index
-        return pageContentViewController
+        
+       
+            let pageContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageContentViewController") as! PagePantalla2Controller
+            pageContentViewController.titleIndex = "\(arrPageTitle[index])"
+            pageContentViewController.imageFIle = "\(arrPagePhoto[index])"
+            pageContentViewController.textoSlider = "\(arrPageSlider[index])"
+            pageContentViewController.pageIndex = index
+            return pageContentViewController
+        
+        
+      
+        
     }
     
 }
