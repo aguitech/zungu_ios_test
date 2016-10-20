@@ -13,7 +13,7 @@ class FacturacionViewController: UIViewController {
     @IBOutlet var lblEstado: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        lblPais.text = "bien"
+        lblPais.text = "bien 2"
         // Do any additional setup after loading the view.
     }
 
