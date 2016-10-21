@@ -23,6 +23,7 @@ class RegisterViewController: UIViewController, FBSDKLoginButtonDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("configure Facebook test")
+        self.configureFacebook()
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

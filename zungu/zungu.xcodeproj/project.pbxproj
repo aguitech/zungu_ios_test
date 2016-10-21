@@ -745,6 +745,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = AC5V69576P;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1080,6 +1081,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = AC5V69576P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1100,6 +1102,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = AC5V69576P;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
