@@ -38,44 +38,48 @@ class RegisterViewController: UIViewController, FBSDKLoginButtonDelegate {
         signInFacebook.readPermissions = ["public_profile", "email", "user_friends"];
         signInFacebook.delegate = self
         
-        print("configure Facebook")
+        //print("configure Facebook")
         //loginFacebook.readPermissions = ["public_profile", "email", "user_friends"];
         //loginFacebook.delegate = self
     }
     func loginButtonDidLogOut(loginButton: FBSDKLoginButton!)
     {
-        print("configure Facebook")
+        //print("cerrar Facebook")
         let loginManager: FBSDKLoginManager = FBSDKLoginManager()
         loginManager.logOut()
-        print("configure Facebook")
+        //print("configure Facebook")
         //ivUserProfileImage.image = nil
         //lblName.text = ""
     }
     func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!)
     {
-        print("configure Facebook")
+        //print("configure Facebook")
         
-        FBSDKGraphRequest.init(graphPath: "me", parameters: ["fields":"first_name, last_name, picture.type(large)"]).startWithCompletionHandler { (connection, result, error) -> Void in
+        //FBSDKGraphRequest.init(graphPath: "me", parameters: ["fields":"first_name, last_name, picture.type(large)"]).startWithCompletionHandler { (connection, result, error) -> Void in
+        FBSDKGraphRequest.init(graphPath: "me", parameters: ["fields":"first_name, email, last_name, picture.type(large)"]).startWithCompletionHandler { (connection, result, error) -> Void in
             
-            print("configure Facebook")
+            print("login fb")
             
             let strFirstName: String = (result.objectForKey("first_name") as? String)!
             print(strFirstName)
             let strLastName: String = (result.objectForKey("last_name") as? String)!
             print(strLastName)
-            //let strEmail: String = (result.objectForKey("email") as? String)!
-            //print(strEmail)
+            let strIDFacebook: String = (result.objectForKey("id") as? String)!
+            print(strIDFacebook)
+            let strEmail: String = (result.objectForKey("email") as? String)!
+            print(strEmail)
             print(result)
             
+            //let url = NSURL(string: "http://hyperion.init-code.com/zungu/app/registro_facebook.php")
             let url = NSURL(string: "http://hyperion.init-code.com/zungu/app/registro_facebook.php")
             let request = NSMutableURLRequest(URL: url!)
             request.HTTPMethod = "POST"
             //let body = "nombre=\(nombreInput.text!)&pass=\(contrasenaUno.text!)&correo=\(correoInput.text!)&apellido=\(apellidoInput.text!)"
             //let body = "nombre=\(strFirstName.text!)&correo=\(strEmail.text!)&apellido=\(strLastName.text!)"
-            //let body = "nombre=\(strFirstName)&correo=\(strEmail)&apellido=\(strLastName)"
+            let body = "nombre=\(strFirstName)&facebook_id=\(strIDFacebook)&apellido=\(strLastName)&correo=\(strEmail)"
             print("dentro")
             
-            let body = "nombre=hola&correo=test&apellido=test"
+            //let body = "nombre=hola&correo=test&apellido=test"
             request.HTTPBody = body.dataUsingEncoding(NSUTF8StringEncoding)
             
             NSURLSession.sharedSession().dataTaskWithRequest(request, completionHandler: { (data, reponse, error) in
@@ -106,6 +110,7 @@ class RegisterViewController: UIViewController, FBSDKLoginButtonDelegate {
                                 let nextViewController = storyBoard.instantiateViewControllerWithIdentifier("HomeView") as! HomeController
                                 self.presentViewController(nextViewController, animated:true, completion:nil)
                             }else{
+                                /*
                                 let alerta = UIAlertController(title: "Usuario existente",
                                     message: "Este correo ya existe",
                                     preferredStyle: UIAlertControllerStyle.Alert)
@@ -114,6 +119,12 @@ class RegisterViewController: UIViewController, FBSDKLoginButtonDelegate {
                                 })
                                 alerta.addAction(accion)
                                 self.presentViewController(alerta, animated: true, completion: nil)
+                                */
+                                
+                                let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                                
+                                let nextViewController = storyBoard.instantiateViewControllerWithIdentifier("HomeView") as! HomeController
+                                self.presentViewController(nextViewController, animated:true, completion:nil)
                             }
                             
                             
