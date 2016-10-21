@@ -586,7 +586,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Fyu-B5-YVM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mWw-Jz-RSK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6og-pt-3Ja">
@@ -884,7 +884,7 @@
                         <viewControllerLayoutGuide type="bottom" id="F4R-Qw-PGI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MFL-mu-s6O">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="608"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sfD-jD-Bsy">
@@ -1558,7 +1558,6 @@
         <!--Mi Perfil View Controller-->
         <scene sceneID="tY5-Di-CUF">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hqA-2M-YeA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="miPerfil" id="uh0-dq-cH0" customClass="MiPerfilViewController" customModule="zungu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="I1h-rP-AHg"/>
@@ -1861,6 +1860,7 @@
                         <outlet property="telefonoPerfil" destination="Gvj-U0-TSK" id="fGN-rI-Bnd"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hqA-2M-YeA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1245" y="1935.2112676056338"/>
         </scene>
@@ -9824,16 +9824,16 @@
         <image name="visa-ico-png.png" width="138" height="88"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yN4-QR-bU5"/>
-        <segue reference="rCJ-FM-AXZ"/>
-        <segue reference="urT-xf-6YJ"/>
-        <segue reference="pSy-ez-05N"/>
-        <segue reference="Y2v-hA-qLo"/>
+        <segue reference="k5y-Or-Flx"/>
         <segue reference="oEO-n7-bHN"/>
         <segue reference="5qW-L7-9g0"/>
+        <segue reference="Y2v-hA-qLo"/>
         <segue reference="yf8-I8-4oH"/>
-        <segue reference="3dW-eH-Y9p"/>
-        <segue reference="Dq5-1V-XvB"/>
         <segue reference="48o-D6-X3J"/>
+        <segue reference="rCJ-FM-AXZ"/>
+        <segue reference="yN4-QR-bU5"/>
+        <segue reference="Dq5-1V-XvB"/>
+        <segue reference="pSy-ez-05N"/>
+        <segue reference="3dW-eH-Y9p"/>
     </inferredMetricsTieBreakers>
 </document>
