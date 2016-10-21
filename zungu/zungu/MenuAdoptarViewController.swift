@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
 
-class MenuAdoptarViewController: UIViewController {
+class MenuAdoptarViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +32,9 @@ class MenuAdoptarViewController: UIViewController {
     }
     @IBAction func cerrarSesion(sender: UIButton) {
         let preferences = NSUserDefaults.standardUserDefaults()
+        
+        let loginManager = FBSDKLoginManager()
+        loginManager.logOut()
         
         let arrayUsuarioKey = "arrayUsuario"
         
