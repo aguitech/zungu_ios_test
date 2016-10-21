@@ -10,6 +10,10 @@ import UIKit
 
 class EditarPerfilViewController: UIViewController {
     
+    
+    
+    @IBOutlet weak var sexo: UITextField!
+    @IBOutlet weak var cumpleanios: UITextField!
     @IBOutlet weak var telefono: UITextField!
     @IBOutlet weak var contrasenia: UITextField!
     @IBOutlet weak var ciudad: UITextField!
@@ -53,13 +57,16 @@ class EditarPerfilViewController: UIViewController {
     
     @IBAction func editarPerfil(sender: UIButton) {
         
-        if(telefono.text!.isEmpty || contrasenia.text!.isEmpty || ciudad.text!.isEmpty || email.text!.isEmpty || apellido.text!.isEmpty || nombre.text!.isEmpty) {
+        if(cumpleanios.text!.isEmpty || sexo.text!.isEmpty || telefono.text!.isEmpty || contrasenia.text!.isEmpty || ciudad.text!.isEmpty || email.text!.isEmpty || apellido.text!.isEmpty || nombre.text!.isEmpty) {
             print("entroerror")
+            cumpleanios.attributedPlaceholder = NSAttributedString(string: "Cumpleaños", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+            sexo.attributedPlaceholder = NSAttributedString(string: "Sexo", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+            
             telefono.attributedPlaceholder = NSAttributedString(string: "Teléfono", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
             
             contrasenia.attributedPlaceholder = NSAttributedString(string: "Contraseña", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
             
-            ciudad.attributedPlaceholder = NSAttributedString(string: "Ciudad", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
+            ciudad.attributedPlaceholder = NSAttributedString(string: "Ubicación", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
             
             email.attributedPlaceholder = NSAttributedString(string: "E-mail", attributes: [NSForegroundColorAttributeName: UIColor.redColor()])
             
@@ -93,7 +100,7 @@ class EditarPerfilViewController: UIViewController {
              
              */
             
-            let body = "id_usuario=\(id_usuario)&nombre=\(nombre.text!)&apellido=\(apellido.text!)&correo=\(email.text!)&ciudad=\(ciudad.text!)&contrasena=\(contrasenia.text!)&telefono=\(telefono.text!)"
+            let body = "id_usuario=\(id_usuario)&nombre=\(nombre.text!)&apellido=\(apellido.text!)&correo=\(email.text!)&ciudad=\(ciudad.text!)&contrasena=\(contrasenia.text!)&telefono=\(telefono.text!)&cumpleanios=\(cumpleanios.text!)&sexo=\(sexo.text!)"
             
             
             
@@ -178,6 +185,8 @@ class EditarPerfilViewController: UIViewController {
                         self.email.text = self.ArrayPerfil["correo"]
                         self.telefono.text = self.ArrayPerfil["telefono"]
                         self.ciudad.text = self.ArrayPerfil["ciudad"]
+                        self.cumpleanios.text = self.ArrayPerfil["cumpleanios"]
+                        self.sexo.text = self.ArrayPerfil["sexo"]
                         
                         //self.nombrePerfil.text = self.ArrayPerfil["nombre"]
                         //self.emailPerfil.text = self.ArrayPerfil["correo"]

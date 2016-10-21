@@ -191,6 +191,16 @@
 		DC0406551DB7269D004B92BB /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC0406481DB7269D004B92BB /* LICENSE.txt */; };
 		DC0406561DB7269D004B92BB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC0406491DB7269D004B92BB /* README.txt */; };
 		DC12F37C1DB9A9D800AFB8F1 /* EditarPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC12F37B1DB9A9D800AFB8F1 /* EditarPerfilViewController.swift */; };
+		DC12F3831DB9D84800AFB8F1 /* iconPerfilUbicacion.png in Resources */ = {isa = PBXBuildFile; fileRef = DC12F37D1DB9D84800AFB8F1 /* iconPerfilUbicacion.png */; };
+		DC12F3841DB9D84800AFB8F1 /* iconPerfilSexo.png in Resources */ = {isa = PBXBuildFile; fileRef = DC12F37E1DB9D84800AFB8F1 /* iconPerfilSexo.png */; };
+		DC12F3851DB9D84800AFB8F1 /* iconPerfilCumpleanios.png in Resources */ = {isa = PBXBuildFile; fileRef = DC12F37F1DB9D84800AFB8F1 /* iconPerfilCumpleanios.png */; };
+		DC12F3861DB9D84800AFB8F1 /* iconPerfilContrasenia.png in Resources */ = {isa = PBXBuildFile; fileRef = DC12F3801DB9D84800AFB8F1 /* iconPerfilContrasenia.png */; };
+		DC12F3871DB9D84800AFB8F1 /* iconPerfilEmail.png in Resources */ = {isa = PBXBuildFile; fileRef = DC12F3811DB9D84800AFB8F1 /* iconPerfilEmail.png */; };
+		DC12F3881DB9D84800AFB8F1 /* iconPerfilNombre.png in Resources */ = {isa = PBXBuildFile; fileRef = DC12F3821DB9D84800AFB8F1 /* iconPerfilNombre.png */; };
+		DC12F38C1DB9F15900AFB8F1 /* btnPoliticasPrivacidad.png in Resources */ = {isa = PBXBuildFile; fileRef = DC12F3891DB9F15900AFB8F1 /* btnPoliticasPrivacidad.png */; };
+		DC12F38D1DB9F15900AFB8F1 /* btnTerminosCondiciones.png in Resources */ = {isa = PBXBuildFile; fileRef = DC12F38A1DB9F15900AFB8F1 /* btnTerminosCondiciones.png */; };
+		DC12F38E1DB9F15900AFB8F1 /* btnGuardarCambios.png in Resources */ = {isa = PBXBuildFile; fileRef = DC12F38B1DB9F15900AFB8F1 /* btnGuardarCambios.png */; };
+		DC12F3901DB9FC4900AFB8F1 /* avatarPerfil.png in Resources */ = {isa = PBXBuildFile; fileRef = DC12F38F1DB9FC4900AFB8F1 /* avatarPerfil.png */; };
 		DC1C87B11DB9750E004E3325 /* RegistroMascotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C87B01DB9750E004E3325 /* RegistroMascotaViewController.swift */; };
 		DC1C87B31DB98817004E3325 /* iconSexo.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1C87B21DB98817004E3325 /* iconSexo.png */; };
 		DC1C87B61DB99BB5004E3325 /* agregarGrande.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1C87B41DB99BB5004E3325 /* agregarGrande.png */; };
@@ -388,6 +398,16 @@
 		DC0406481DB7269D004B92BB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		DC0406491DB7269D004B92BB /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		DC12F37B1DB9A9D800AFB8F1 /* EditarPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditarPerfilViewController.swift; sourceTree = "<group>"; };
+		DC12F37D1DB9D84800AFB8F1 /* iconPerfilUbicacion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconPerfilUbicacion.png; sourceTree = "<group>"; };
+		DC12F37E1DB9D84800AFB8F1 /* iconPerfilSexo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconPerfilSexo.png; sourceTree = "<group>"; };
+		DC12F37F1DB9D84800AFB8F1 /* iconPerfilCumpleanios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconPerfilCumpleanios.png; sourceTree = "<group>"; };
+		DC12F3801DB9D84800AFB8F1 /* iconPerfilContrasenia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconPerfilContrasenia.png; sourceTree = "<group>"; };
+		DC12F3811DB9D84800AFB8F1 /* iconPerfilEmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconPerfilEmail.png; sourceTree = "<group>"; };
+		DC12F3821DB9D84800AFB8F1 /* iconPerfilNombre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconPerfilNombre.png; sourceTree = "<group>"; };
+		DC12F3891DB9F15900AFB8F1 /* btnPoliticasPrivacidad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnPoliticasPrivacidad.png; sourceTree = "<group>"; };
+		DC12F38A1DB9F15900AFB8F1 /* btnTerminosCondiciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnTerminosCondiciones.png; sourceTree = "<group>"; };
+		DC12F38B1DB9F15900AFB8F1 /* btnGuardarCambios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnGuardarCambios.png; sourceTree = "<group>"; };
+		DC12F38F1DB9FC4900AFB8F1 /* avatarPerfil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatarPerfil.png; sourceTree = "<group>"; };
 		DC1C87B01DB9750E004E3325 /* RegistroMascotaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroMascotaViewController.swift; sourceTree = "<group>"; };
 		DC1C87B21DB98817004E3325 /* iconSexo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSexo.png; sourceTree = "<group>"; };
 		DC1C87B41DB99BB5004E3325 /* agregarGrande.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agregarGrande.png; sourceTree = "<group>"; };
@@ -497,6 +517,16 @@
 		38BC30621D9C4C35008DD592 /* imagen */ = {
 			isa = PBXGroup;
 			children = (
+				DC12F38F1DB9FC4900AFB8F1 /* avatarPerfil.png */,
+				DC12F3891DB9F15900AFB8F1 /* btnPoliticasPrivacidad.png */,
+				DC12F38A1DB9F15900AFB8F1 /* btnTerminosCondiciones.png */,
+				DC12F38B1DB9F15900AFB8F1 /* btnGuardarCambios.png */,
+				DC12F37D1DB9D84800AFB8F1 /* iconPerfilUbicacion.png */,
+				DC12F37E1DB9D84800AFB8F1 /* iconPerfilSexo.png */,
+				DC12F37F1DB9D84800AFB8F1 /* iconPerfilCumpleanios.png */,
+				DC12F3801DB9D84800AFB8F1 /* iconPerfilContrasenia.png */,
+				DC12F3811DB9D84800AFB8F1 /* iconPerfilEmail.png */,
+				DC12F3821DB9D84800AFB8F1 /* iconPerfilNombre.png */,
 				DC1C87B41DB99BB5004E3325 /* agregarGrande.png */,
 				DC1C87B51DB99BB5004E3325 /* agregarMini.png */,
 				DC1C87B21DB98817004E3325 /* iconSexo.png */,
@@ -753,6 +783,7 @@
 				38BC30CC1D9C4C42008DD592 /* establecimiento.png in Resources */,
 				38BC30C51D9C4C42008DD592 /* arana.png in Resources */,
 				38BC30BA1D9C4C42008DD592 /* anuncios.png in Resources */,
+				DC12F38D1DB9F15900AFB8F1 /* btnTerminosCondiciones.png in Resources */,
 				3803DF7F1DB84783005E4BE3 /* plus-ico.png in Resources */,
 				38BC30E01D9C4C42008DD592 /* movil.png in Resources */,
 				0453CDBD1DB6C387000552E4 /* slide2.png in Resources */,
@@ -766,8 +797,10 @@
 				38BC30A91D9C4C42008DD592 /* intro3.png in Resources */,
 				386CAA601DB7D00200B54FDD /* prendido3.png in Resources */,
 				DCFD214A1DB8741300E2CAF1 /* fondoFormasPago.png in Resources */,
+				DC12F38E1DB9F15900AFB8F1 /* btnGuardarCambios.png in Resources */,
 				3852EB5A1DB53F1300596D60 /* reptil-ico.png in Resources */,
 				38BC30D11D9C4C42008DD592 /* star.png in Resources */,
+				DC12F3861DB9D84800AFB8F1 /* iconPerfilContrasenia.png in Resources */,
 				DC04064E1DB7269D004B92BB /* FacebookSDKStrings.bundle in Resources */,
 				38BC30C11D9C4C42008DD592 /* roedor.png in Resources */,
 				38BC30C71D9C4C42008DD592 /* pez.png in Resources */,
@@ -797,11 +830,14 @@
 				3852EB5B1DB53F1300596D60 /* ave-ico.png in Resources */,
 				386CAA5F1DB7D00200B54FDD /* button-selected2.png in Resources */,
 				38BEFC481D8E5C6B002D7253 /* gif2.gif in Resources */,
+				DC12F3871DB9D84800AFB8F1 /* iconPerfilEmail.png in Resources */,
 				38304F0E1DB90FF800295DF0 /* tienda-serivicio.png in Resources */,
 				38D11C7C1DB0207E00F39B75 /* fondo_corazones.png in Resources */,
+				DC12F3831DB9D84800AFB8F1 /* iconPerfilUbicacion.png in Resources */,
 				38BC30D51D9C4C42008DD592 /* servicios.png in Resources */,
 				389C9FC71DAD588200A508EF /* flecha_derecha.png in Resources */,
 				389C9FC81DAD588200A508EF /* flecha_izquierda.png in Resources */,
+				DC12F3841DB9D84800AFB8F1 /* iconPerfilSexo.png in Resources */,
 				38F5C33B1DAEB84F007B6468 /* fondo_popup.png in Resources */,
 				3852EB6A1DB5416C00596D60 /* huella-ico-gde.png in Resources */,
 				38BC30C21D9C4C42008DD592 /* reptiles.png in Resources */,
@@ -817,6 +853,7 @@
 				389C9FC01DAD38F100A508EF /* casita-verde.png in Resources */,
 				38BC30BC1D9C4C42008DD592 /* clinica_activado.png in Resources */,
 				3852EB681DB5416C00596D60 /* huella-ico-med.png in Resources */,
+				DC12F38C1DB9F15900AFB8F1 /* btnPoliticasPrivacidad.png in Resources */,
 				3878AABE1DA41D58000816B6 /* nombre.png in Resources */,
 				38BC30D41D9C4C42008DD592 /* cascabel.png in Resources */,
 				3852EB5C1DB53F1300596D60 /* insecto-ico.png in Resources */,
@@ -829,7 +866,10 @@
 				38BC30E41D9C4C42008DD592 /* cerrar_menu.png in Resources */,
 				38BC30AF1D9C4C42008DD592 /* registro-mascotas.png in Resources */,
 				38BC30D81D9C4C42008DD592 /* tienda.png in Resources */,
+				DC12F3881DB9D84800AFB8F1 /* iconPerfilNombre.png in Resources */,
+				DC12F3901DB9FC4900AFB8F1 /* avatarPerfil.png in Resources */,
 				38DC36C11DA2E74B002150DD /* dog-food-1.png in Resources */,
+				DC12F3851DB9D84800AFB8F1 /* iconPerfilCumpleanios.png in Resources */,
 				38BC30CF1D9C4C42008DD592 /* yellow_star.png in Resources */,
 				38BC30E51D9C4C42008DD592 /* corazon.png in Resources */,
 				38BC30B11D9C4C42008DD592 /* home2.png in Resources */,
