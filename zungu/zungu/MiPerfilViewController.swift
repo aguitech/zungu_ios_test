@@ -49,7 +49,7 @@ class MiPerfilViewController: UIViewController {
         //idu=\(id_usuario)
         //let url = NSURL(string: "http://hyperion.init-code.com/zungu/app/editar_perfil.php?id_usuario=4")
         print("\(id_usuario)")
-        let url = NSURL(string: "http://hyperion.init-code.com/zungu/app/editar_perfil.php?id_usuario=\(id_usuario)")
+        let url = NSURL(string: "http://hyperion.init-code.com/zungu/app/mi_perfil.php?id_usuario=\(id_usuario)")
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) { (data, response, error) in
             if error != nil{
                 

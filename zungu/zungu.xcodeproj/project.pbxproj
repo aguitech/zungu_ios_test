@@ -190,8 +190,11 @@
 		DC0406541DB7269D004B92BB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0406471DB7269D004B92BB /* FBSDKShareKit.framework */; };
 		DC0406551DB7269D004B92BB /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC0406481DB7269D004B92BB /* LICENSE.txt */; };
 		DC0406561DB7269D004B92BB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC0406491DB7269D004B92BB /* README.txt */; };
+		DC12F37C1DB9A9D800AFB8F1 /* EditarPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC12F37B1DB9A9D800AFB8F1 /* EditarPerfilViewController.swift */; };
 		DC1C87B11DB9750E004E3325 /* RegistroMascotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C87B01DB9750E004E3325 /* RegistroMascotaViewController.swift */; };
 		DC1C87B31DB98817004E3325 /* iconSexo.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1C87B21DB98817004E3325 /* iconSexo.png */; };
+		DC1C87B61DB99BB5004E3325 /* agregarGrande.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1C87B41DB99BB5004E3325 /* agregarGrande.png */; };
+		DC1C87B71DB99BB5004E3325 /* agregarMini.png in Resources */ = {isa = PBXBuildFile; fileRef = DC1C87B51DB99BB5004E3325 /* agregarMini.png */; };
 		DCFD214A1DB8741300E2CAF1 /* fondoFormasPago.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFD21481DB8741300E2CAF1 /* fondoFormasPago.png */; };
 		DCFD214B1DB8741300E2CAF1 /* InstruccionesSPEI.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFD21491DB8741300E2CAF1 /* InstruccionesSPEI.png */; };
 		DCFD214E1DB877CA00E2CAF1 /* PagoSPEIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD214C1DB877CA00E2CAF1 /* PagoSPEIViewController.swift */; };
@@ -384,8 +387,11 @@
 		DC0406471DB7269D004B92BB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		DC0406481DB7269D004B92BB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		DC0406491DB7269D004B92BB /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		DC12F37B1DB9A9D800AFB8F1 /* EditarPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditarPerfilViewController.swift; sourceTree = "<group>"; };
 		DC1C87B01DB9750E004E3325 /* RegistroMascotaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroMascotaViewController.swift; sourceTree = "<group>"; };
 		DC1C87B21DB98817004E3325 /* iconSexo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSexo.png; sourceTree = "<group>"; };
+		DC1C87B41DB99BB5004E3325 /* agregarGrande.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agregarGrande.png; sourceTree = "<group>"; };
+		DC1C87B51DB99BB5004E3325 /* agregarMini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agregarMini.png; sourceTree = "<group>"; };
 		DCFD21481DB8741300E2CAF1 /* fondoFormasPago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoFormasPago.png; sourceTree = "<group>"; };
 		DCFD21491DB8741300E2CAF1 /* InstruccionesSPEI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstruccionesSPEI.png; sourceTree = "<group>"; };
 		DCFD214C1DB877CA00E2CAF1 /* PagoSPEIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagoSPEIViewController.swift; sourceTree = "<group>"; };
@@ -483,6 +489,7 @@
 				38D11C871DB0662F00F39B75 /* CitaGuardadaViewController.swift */,
 				38304F061DB90AB400295DF0 /* FiltroViewController.swift */,
 				DC1C87B01DB9750E004E3325 /* RegistroMascotaViewController.swift */,
+				DC12F37B1DB9A9D800AFB8F1 /* EditarPerfilViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -490,6 +497,8 @@
 		38BC30621D9C4C35008DD592 /* imagen */ = {
 			isa = PBXGroup;
 			children = (
+				DC1C87B41DB99BB5004E3325 /* agregarGrande.png */,
+				DC1C87B51DB99BB5004E3325 /* agregarMini.png */,
 				DC1C87B21DB98817004E3325 /* iconSexo.png */,
 				38304F1E1DB9458600295DF0 /* slider-ico.png */,
 				38304F161DB928B400295DF0 /* image-paseador.png */,
@@ -840,6 +849,7 @@
 				3852EB521DB5263C00596D60 /* albums-ico.png in Resources */,
 				38304F0F1DB90FF800295DF0 /* medicina-alternativa.png in Resources */,
 				38BC30D31D9C4C42008DD592 /* mi_perfil.png in Resources */,
+				DC1C87B71DB99BB5004E3325 /* agregarMini.png in Resources */,
 				38304F191DB9294800295DF0 /* mapa-paseador.png in Resources */,
 				38304F131DB90FF800295DF0 /* paseador-servicio.png in Resources */,
 				38BEFC461D8E5C6B002D7253 /* gif3.gif in Resources */,
@@ -858,6 +868,7 @@
 				DC04064B1DB7269D004B92BB /* AccountKitStrings.bundle in Resources */,
 				38304F151DB9166500295DF0 /* flecha-return.png in Resources */,
 				386CAA631DB7E51200B54FDD /* lapiz-editar-ico.png in Resources */,
+				DC1C87B61DB99BB5004E3325 /* agregarGrande.png in Resources */,
 				38BC30CE1D9C4C42008DD592 /* hora_consulta.png in Resources */,
 				38BC30E61D9C4C42008DD592 /* estetica.png in Resources */,
 				38BC30C41D9C4C42008DD592 /* gatodos.png in Resources */,
@@ -885,6 +896,7 @@
 				38D11C861DB0648A00F39B75 /* popUpProximaViewController.swift in Sources */,
 				38C770CD1D92EB0A00653FD2 /* ColMascCollectionViewCell.swift in Sources */,
 				38194BC41D7E113D008FAC36 /* NotificacionesAdoptaViewController.swift in Sources */,
+				DC12F37C1DB9A9D800AFB8F1 /* EditarPerfilViewController.swift in Sources */,
 				38F893991D90650F00FC6120 /* VeterinariasDosViewController.swift in Sources */,
 				3803DF811DB84C39005E4BE3 /* CellCarritoTableViewCell.swift in Sources */,
 				38E5FD351D78B70D00FE95DD /* ViewController.swift in Sources */,
